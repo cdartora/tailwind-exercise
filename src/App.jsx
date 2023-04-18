@@ -1,9 +1,13 @@
 import NavBar from "./components/NavBar";
+import HeroSection from "./components/HeroSection";
 
 function App() {
   return (
     <main className="App">
-      <NavBar />
+      <header className="text-zinc-200">
+        <NavBar />
+        <HeroSection />
+      </header>
     </main>
   );
 }
