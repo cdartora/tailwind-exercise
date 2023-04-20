@@ -10,7 +10,7 @@ function NavBar() {
     setIsMenuOpen(!isMenuOpen);
   }
   return (
-    <nav className="flex sticky top-0 bg-gradient-to-r from-rose-500 to-pink-500">
+    <nav className="flex sticky top-0 bg-gradient-to-r from-rose-500 to-pink-500 z-10">
       <div className="flex items-center p-2 gap-2">
         <img src={logo} alt="Logomarca do festival" width="50" />
         <div className="font-bold text-2xl">

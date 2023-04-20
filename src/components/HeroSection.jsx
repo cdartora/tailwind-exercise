@@ -5,7 +5,7 @@ export default function HeroSection() {
   return (
     <div
       style={{ "background-image": `url(${backgroundImage})` }}
-      className="flex flex-col items-center justify-center h-[calc(100vh-200px)] min-h-[400px] bg-cover bg-center bg-fixed"
+      className="flex flex-col items-center justify-center h-[calc(100vh-200px)] min-h-[400px] bg-cover bg-center bg-fixed p-4"
     >
       <div className="bg-white/30 py-2 px-4 rounded-xl text-center backdrop-blur-sm mb-5">
         <div className="relative">
@@ -27,7 +27,7 @@ export default function HeroSection() {
       <div className="mb-2 text-sm font-bold">
         Keep me updated with news and promotions
       </div>
-      <div className=" flex gap-2">
+      <div className=" flex flex-col w-full gap-2 sm:flex-row sm:w-min">
         <input
           type="email"
           name="email"

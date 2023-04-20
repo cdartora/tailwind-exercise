@@ -1,5 +1,6 @@
 import NavBar from "./components/NavBar";
 import HeroSection from "./components/HeroSection";
+import Headliners from "./components/Headliners";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <NavBar />
         <HeroSection />
       </header>
+      <Headliners />
     </main>
   );
 }
