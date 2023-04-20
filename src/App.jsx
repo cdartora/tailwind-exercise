@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 import HeroSection from "./components/HeroSection";
 import Headliners from "./components/Headliners";
 import ThemeButton from "./components/ThemeButton";
+import Tickets from "./components/Tickets";
 
 function App() {
   const [isDarkTheme, setIsDarkTheme] = useState(true);
@@ -18,6 +19,7 @@ function App() {
           <HeroSection />
         </header>
         <Headliners />
+        <Tickets />
       </main>
     </div>
   );
