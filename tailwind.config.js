@@ -20,5 +20,8 @@ export default {
       },
     },
   },
-  plugins: [require("./plugins/animationDelay")],
+  plugins: [
+    require("./plugins/animationDelay"),
+    require("./plugins/tableCaption"),
+  ],
 };
