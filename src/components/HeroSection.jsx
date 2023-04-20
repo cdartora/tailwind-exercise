@@ -4,7 +4,7 @@ import logoHero from "../assets/logo.png";
 export default function HeroSection() {
   return (
     <div
-      style={{ "background-image": `url(${backgroundImage})` }}
+      style={{ backgroundImage: `url(${backgroundImage})` }}
       className="flex flex-col items-center justify-center h-[calc(100vh-200px)] min-h-[400px] bg-cover bg-center bg-fixed p-4"
     >
       <div className="bg-white/30 py-2 px-4 rounded-xl text-center backdrop-blur-sm mb-5">
