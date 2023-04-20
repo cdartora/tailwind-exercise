@@ -10,10 +10,10 @@ function App() {
     setIsDarkTheme(!isDarkTheme);
   };
   return (
-    <div onClick={toggleTheme} className={isDarkTheme ? "dark" : ""}>
+    <div className={isDarkTheme ? "dark" : ""}>
       <main className="App bg-zinc-100 dark:bg-zinc-900">
         <header className="text-zinc-200">
-          <ThemeButton />
+          <ThemeButton toggleTheme={toggleTheme} />
           <NavBar />
           <HeroSection />
         </header>
